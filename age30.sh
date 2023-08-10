@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#input file source
 file=$1
 
 if [ -f $file ]; then

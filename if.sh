@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# input from command line argument
+
+#input from cli
 NUM=$1
 
 if [ $NUM -eq 5 ];

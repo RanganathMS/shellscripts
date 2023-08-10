@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+#input from cli
 NUM=$1
 
 if [ $NUM -eq 5 ];

@@ -1,0 +1,3 @@
+test master branch
+after creating feature 1
+this is the file thats modified

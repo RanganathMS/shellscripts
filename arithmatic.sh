@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# input numbers are entered below
 NUM1=$1
 NUM2=$2
 

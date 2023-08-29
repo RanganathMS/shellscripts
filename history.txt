@@ -1,0 +1,1000 @@
+   63  cd ..
+   64  ls
+   65  ls -lart
+   66  cd .ssh
+   67  ls
+   68  ls -lart
+   69  clear
+   70  ssh 35.154.189.53
+   71  ls
+   72  cd ..
+   73  ls
+   74  cd linux_commands/
+   75  ls
+   76  clear
+   77  ping 172.31.40.116
+   78  ssh 172.31.40.116
+   79  ssh-keygen
+   80  cd ..
+   81  cd .ssh
+   82  ls
+   83  cat id_rsa.pub 
+   84  clear
+   85  ssh 15.206.168.142
+   86  sudo su devops
+   87  exit
+   88  ls
+   89  exit
+   90  clear
+   91  ls
+   92  ls -lrt
+   93  cd linux_commands
+   94  ls
+   95  ls linux_commands/
+   96  ls -lrt
+   97  clear
+   98  ls
+   99  l linux_commands/
+  100  cat /etc/passwd
+  101  sudo -i
+  102  sudo sudevops
+  103  sudo su devops
+  104  sudo -i
+  105  exit
+  106  ls
+  107  sudo su ec2-user
+  108  su devops
+  109  sudo su devops
+  110  su ec2-user
+  111  ls
+  112  ls
+  113  sudo -i
+  114  cd shell_scripts/
+  115  ls
+  116  df -h .
+  117  df -h . | tail -1
+  118  df -h . | tail -1 | awk -F '{print $NF-1}'
+  119  df -h . | tail -1 | awk -F '{print $(NF-1)}'
+  120  df -h . | tail -1 | awk -F " " '{print $(NF-1)}'
+  121  df -h . | tail -1 | awk -F " " '{print $(NF-1)}' | sed "s/%//g"
+  122  df -h . | tail -1 | awk -F " " '{print $5}' | sed "s/%//g"
+  123  df -h . | tail -1 | awk -F " " '{print $NF}' | sed "s/%//g"
+  124  df -h . | tail -1 | awk -F " " '{print $NF-1}' | sed "s/%//g"
+  125  df -h . | tail -1 | awk -F " " '{print $(NF-1)}' | sed "s/%//g"
+  126  clear 
+  127  sudo yum install mail
+  128  sudo yum install mailx
+  129  which mail
+  130  $?
+  131  vi arithmatic.sh
+  132  ls
+  133  vi arithmatic.sh
+  134  chmod u+x arithmatic.sh 
+  135  sh arithmatic.sh 
+  136  vi arithmatic.sh 
+  137  vi arithmatic.sh  2 4
+  138  sh arithmatic.sh 2 5
+  139  ls
+  140  ls -lart
+  141  cd ..
+  142  ls -lart
+  143  cd shell_scripts/
+  144  ls
+  145  sh arithmatic.sh
+  146  cp arithmatic.sh /home/ec2-user/linux_commands/file9.txt
+  147  cd ..
+  148  cd linux_commands/
+  149  cat file9.txt 
+  150  cat file9.txt > arithmatic.sh
+  151  sh arithmatic.sh 
+  152  vi arithmatic.sh 
+  153  sh arithmatic.sh 
+  154  sh arithmatic.sh 2 4
+  155  vi arithmatic.sh 
+  156  sh arithmatic.sh 
+  157  vi arithmatic.sh 
+  158  sh arithmatic.sh 
+  159  vi arithmatic.sh 
+  160  sh arithmatic.sh 
+  161  vi arithmatic.sh 
+  162  sh arithmatic.sh 
+  163  man expr
+  164  sum= `expr 1+2`
+  165  sum= `expr $1 + $2`
+  166  sum= `expr $1 + expr $2`
+  167  vi arithmatic.sh 
+  168  sh arithmatic.sh 
+  169  sh arithmatic.sh 2 4
+  170  vi arithmatic.sh 
+  171  ls
+  172  cd linux_commands/
+  173  ls
+  174  ls -lrt
+  175  cd shell_scripts/
+  176  ls
+  177  vi arithmatic.sh 
+  178  sh arithmatic.sh 2 4
+  179  ls
+  180  ls shell_scripts/
+  181  vi arithmatic.sh
+  182  ls -lrt
+  183  cd shell_scripts/
+  184  ls
+  185  vi arithmatic.sh 
+  186  sh arithmatic.sh 
+  187  ls -lrt
+  188  ls *[0-9]*
+  189  rm *[0-9]*
+  190  ls
+  191  ls -lrt
+  192  ls
+  193  pwd
+  194  ls
+  195  cd shell_scripts/
+  196  ls
+  197  vi sample.sh 
+  198  sh if.sh
+  199  ls -lrt
+  200  chmod u+x if.sh
+  201  ls -lrt
+  202  chmod 744 if.sh
+  203  ls -lrt
+  204  sh if.sh
+  205  vi if.sh
+  206  sh if.sh 8
+  207  vi if.sh
+  208  ls
+  209  cd shell_scripts/
+  210  ls
+  211  cat if.sh
+  212  clear
+  213  cat if.sh
+  214  sh if.sh 5
+  215  sh arithmatic.sh 5 7
+  216  vi arithmatic.sh 
+  217  sh arithmatic.sh 5 7
+  218  sh if.sh 6
+  219  vi if.sh 
+  220  ls
+  221  clear
+  222  ls -lrt
+  223  cat if.sh
+  224  vi if.sh
+  225  sh if.sh 6
+  226  vi arithmatic.sh 
+  227  ls -lrt
+  228  vi ifthen.sh 
+  229  vi biggestoftwonumbers.sh
+  230  chmof u+x biggestoftwonumbers.sh 
+  231  chmod u+x biggestoftwonumbers.sh 
+  232  ls -lrt
+  233  sh biggestoftwonumbers.sh 3 4
+  234  vi biggestoftwonumbers.sh  
+  235  clear
+  236  sh biggestoftwonumbers.sh 6 7
+  237  vi biggestoftwonumbers.sh 
+  238  sh biggestoftwonumbers.sh 6 7
+  239  ls
+  240  cd shell_scripts/
+  241  vi secondlargest.sh
+  242  sh secondlargest.sh 3 2 4 1 5
+  243  vi secondlargest.sh 
+  244  vi secondlargest.sh 4 3 5 2 6
+  245  sh secondlargest.sh 4 3 5 2 6
+  246  vi secondlargest.sh 
+  247  sh secondlargest.sh 
+  248  vi secondlargest.sh 
+  249  sh secondlargest.sh 
+  250  sh -x secondlargest.sh 
+  251  yum install postfix
+  252  ca ..
+  253  yum install postfix
+  254  sudo yum install postfix
+  255  rpm -qa | grep postfix
+  256  sudo yum install mailx
+  257    cd /etc/postfix/
+  258  ls
+  259  ls -lt
+  260   clear
+  261   cp main.cf main.cf_backup
+  262   cp main.cf main.cf_bkp
+  263  ls -lt
+  264  chmod u+x main.cf
+  265  vi main.cf
+  266  cd .
+  267  cd ..
+  268  ls
+  269  ls -lrt
+  270  cd
+  271  cd .
+  272  sudo -i
+  273  l
+  274  ls
+  275  cd /etc/postfix
+  276  ls -lrt
+  277  sudo -i
+  278  cd shell_scripts/
+  279  ls
+  280  ls -lrt
+  281  ls
+  282  sudo -i
+  283  ls
+  284  sudo -i
+  285  cd shell_scripts/
+  286  vi second biggest.sh
+  287  sh second biggest.sh
+  288  sh -x second biggest.sh 8 5 6 4vvvvv
+  289  sh -x second biggest.sh 8 8
+  290  ls 
+  291  ls -lrt
+  292  vi second biggest.sh
+  293  sh second biggest.sh
+  294  sh second biggest.sh 6 7 8 9 
+  295  vi second biggest.sh
+  296  sh second biggest.sh 6 7 8 9 
+  297  vi second biggest.sh
+  298  sh second biggest.sh 
+  299  vi second biggest.sh
+  300  sh second biggest.sh 
+  301  1
+  302  vi second biggest.sh
+  303  vi second biggest.sh 7 5 8 2
+  304  sh second biggest.sh 
+  305  vi second biggest.sh 
+  306  sh second biggest.sh 
+  307  vi second biggest.sh 
+  308  sh second biggest.sh 
+  309  vi second biggest.sh 
+  310  sh second biggest.sh 
+  311  vi second biggest.sh 
+  312  sh second biggest.sh 
+  313  vi second biggest.sh 
+  314  sh second biggest.sh 
+  315  sh second biggest.sh 6 7 8 9
+  316  vi second biggest.sh 
+  317  sh second biggest.sh 7 8 9 0
+  318  sh second biggest.sh
+  319  vi second biggest.sh
+  320  sh second biggest.sh
+  321  vi second biggest.sh
+  322  sh second biggest.sh
+  323  vi second biggest.sh
+  324  sh second biggest.sh
+  325  vi second biggest.sh
+  326  sh second biggest.sh
+  327  vi second biggest.sh
+  328  sh second biggest.sh
+  329  vi second biggest.sh
+  330  sh second biggest.sh
+  331  vi second biggest.sh
+  332  sh second biggest.sh
+  333  clear
+  334  vi second biggest.sh
+  335  sh -x second biggest.sh
+  336  vi second biggest.sh
+  337  sh -x second biggest.sh
+  338  vi second biggest.sh
+  339  sh -x second biggest.sh
+  340  vi second biggest.sh
+  341  ls 
+  342  cd ..
+  343  ls
+  344  ls -lrt
+  345  cd ..
+  346  ls 
+  347  cd /etc/postfix/
+  348  ls -lt
+  349   sudo vi main.cf
+  350  hostname -f
+  351  vi sudo main.cf
+  352   cat main.cf
+  353  sudo vi main.cf
+  354  clear
+  355  pwd
+  356  mkdir sasl
+  357  ls -lrt
+  358  chmod u+x postfix
+  359  ls
+  360  cd ..
+  361  ls
+  362  ls | grep postfix
+  363  ls -lrt| postfix
+  364  cd postfix
+  365  sudo mkdir sasl
+  366  cd sasl
+  367  touch sasl_passwd
+  368  sudo touch sasl_passwd
+  369  ls
+  370  vi sasl_passwd 
+  371  sudo vi sasl_passwd 
+  372  pwd
+  373  clear
+  374  pwd
+  375  ls -lrt
+  376  postmap sasl_passwd 
+  377  sudo postmap sasl_passwd 
+  378  ls -lrt
+  379  chmod 600 *
+  380  sudo chmod *
+  381  sudo chmod 600 *
+  382  ls -lrt
+  383  clear
+  384  ls -lrt
+  385  systemctl start postfix.service
+  386  sudo systemctl start postfix.service
+  387  sudo systemstatus start postfix.service
+  388  sudo status start postfix.service
+  389  sudo systemctl status postfix.service
+  390  sudo echo "testmail" |  mail -s "example mail" msrtth@gmail.com
+  391  sudo echo "testmail" |  mail -s "example mail" divyakonati@gmail.com
+  392  sudo echo "ec2 aws" |  mail -s "hi divya" divyakonati@gmail.com
+  393  cd shell_scripts/
+  394  vi funtions.sh
+  395  sh funtions.sh
+  396  vi funtions.sh
+  397  sh funtions.sh
+  398  sh funtions.sh 3 4
+  399  vi funtions.sh
+  400  sh funtions.sh 3 4
+  401  vi funtions.sh
+  402  sh funtions.sh 3 4
+  403  sh funtions.sh 
+  404  vi funtions.sh
+  405  sh funtions.sh 
+  406  vi funtions.sh
+  407  sh funtions.sh 
+  408  vi funtions.sh
+  409  sh funtions.sh 
+  410  vi funtions.sh
+  411  sh funtions.sh 
+  412  vi funtions.sh
+  413  sh funtions.sh 
+  414  vi funtions.sh
+  415  sh funtions.sh 
+  416  clear
+  417  vi funtions.sh
+  418  sh funtions.sh 
+  419  vi funtions.sh
+  420  sh funtions.sh 
+  421  vi funtions.sh
+  422  sh funtions.sh 
+  423  vi funtions.sh
+  424  sh funtions.sh 
+  425  vi funtions.sh
+  426  sh funtions.sh 
+  427  vi funtions.sh
+  428  clear
+  429  sh funtions.sh 
+  430  vi funtions.sh
+  431  sh funtions.sh 
+  432  vi funtions.sh
+  433  sh funtions.sh 
+  434  ls -lrt
+  435  chmod u+x funtions.sh 
+  436  ls -lrt
+  437  vi factorialUNTIL Loop.sh
+  438  vi factorialUNTILLoop.sh
+  439  sh factorialUNTILLoop.sh 5
+  440  vi factorialUNTILLoop.sh
+  441  sh factorialUNTILLoop.sh 5
+  442  vi factorialUNTILLoop.sh
+  443  sh factorialUNTILLoop.sh 5
+  444  vi factorialUNTILLoop.sh
+  445  sh factorialUNTILLoop.sh 5
+  446  vi factorialUNTILLoop.sh
+  447  sh factorialUNTILLoop.sh 5
+  448  vi factorialUNTILLoop.sh
+  449  sh factorialUNTILLoop.sh 5
+  450  vi secondlargest.sh
+  451   secondlargest.sh 8 7 4 0 2 
+  452   sh secondlargest.sh 8 7 4 0 2 
+  453  vi secondlargest.sh
+  454   sh secondlargest.sh 8 7 4 0 2 
+  455  vi secondlargest.sh
+  456   sh secondlargest.sh 8 7 4 0 2 
+  457  vi secondlargest.sh
+  458   sh secondlargest.sh 8 7 4 0 2 
+  459   sh -x secondlargest.sh 8 7 4 0 2 
+  460  clear
+  461  ls -lrt
+  462  rm second
+  463  ls -lrt
+  464  vi ifelif.sh 
+  465  vi ifthen.sh 
+  466  vi if.sh
+  467  vi filelinkdirectory.sh
+  468  vi employees.txt
+  469  cat emp
+  470  cat employees.txt 
+  471  vi age.sh
+  472  cd shell_scripts/
+  473  ls -lrt
+  474  vi age30.sh
+  475  sh age30.sh
+  476  sh age30.sh employyes.sh
+  477  sh age30.sh employyes.txt
+  478  sh age30.sh employees.txt
+  479  vi age30.sh
+  480  sh age30.sh employees.txt
+  481  vi age30.sh
+  482  sh age30.sh employees.txt
+  483  vi age30.sh
+  484  sh -x age30.sh employees.txt
+  485  vi age30.sh
+  486  awk -F $1
+  487  awk -F $1 employees.txt 
+  488  awk -F '{$1}' employees.txt 
+  489  awk -F '{$1}' "employees.txt" 
+  490  awk -F " '{$1}' 'employees.txt' 
+  491  awk -F " " '{$1}' "employees.txt" 
+  492  awk -F " " '{$3}' "employees.txt" 
+  493  awk -F " " '{print $3}' "employees.txt" 
+  494  awk -F " " '{print $3}'| tail -n+2 "employees.txt" 
+  495  tail -n+2 |awk -F " " '{print $3}'|  "employees.txt" 
+  496  tail -n+2 employee.txt |awk -F " " '{print $3}'|  "employees.txt" 
+  497  tail -n+2 |awk -F " " '{print $3}' "employees.txt" 
+  498  tail -n+2 employees.txt |awk -F " " '{print $3}' "employees.txt" 
+  499  clear
+  500  sh -x age30.sh employees.txt
+  501  vi age30.sh 
+  502  sh -x age30.sh employees.txt
+  503  vi age30.sh 
+  504  sh -x age30.sh employees.txt
+  505  awk $1 employees.txt 
+  506  awk '$1' employees.txt 
+  507  awk '$2' employees.txt 
+  508  awk '$1' '$2' employees.txt 
+  509  awk $ employees.txt 
+  510  awk -F $1 employees.txt 
+  511  vi age30.sh 
+  512  sh age30.sh 
+  513  vi age30.sh 
+  514  sh age30.sh 
+  515  sh age30.sh employees.txt 
+  516  vi age30.sh 
+  517  sh age30.sh employees.txt 
+  518  vi age30.sh 
+  519  sh age30.sh employees.txt 
+  520  vi age30.sh 
+  521  clear
+  522  sh age30.sh employees.txt 
+  523  history
+  524  clear
+  525  ls -lrt
+  526  vi funtions.sh 
+  527  vi age30.sh 
+  528  man awk
+  529  sh age30.sh employees.txt 
+  530  awk $0 employees.txt 
+  531  awk $1 employees.txt 
+  532  awk '$1' employees.txt 
+  533  awk NR employees.txt 
+  534  awk NR>2 employees.txt 
+  535  awk NR>2  $1 employees.txt 
+  536  awk NR>2  $1 employees.txt clear
+  537  clear
+  538  cd shell_scripts/
+  539  awk -F " " '{print $1}' employees.txt 
+  540  awk -F " " '{print $3} >= 30' employees.txt 
+  541  awk -F " " '{print $3}' employees.txt 
+  542  awk -F " " '{print $3}' && tail -n+2 employees.txt 
+  543  awk -F " " '{print $3} && tail -n+2' employees.txt 
+  544  tail -n+2 | awk -F " " '{print $3}' employees.txt 
+  545  tail -n+2 employees.txt | awk -F " " '{print $3}' employees.txt 
+  546   awk -F " " '{print $3} && NR > 1' employees.txt 
+  547  vi age30.sh 
+  548  sh age30.sh 
+  549  sh age30.sh employees.txt 
+  550  vi age30.sh 
+  551  awk '$1' employees.txt 
+  552  awk '{print $1}' employees.txt 
+  553  awk -F " " '{print $3} >=30 && NR > 1' employees.txt
+  554  awk -F " " '{print $3 >=30 && NR > 1}' employees.txt
+  555  awk -F " " '{print $3 >=30} && NR > 1' employees.txt
+  556  awk -F " " '{print $3 >=30}' employees.txt
+  557  awk -F " " '{print $3 >= 30}' employees.txt
+  558  awk -F " " '{print $3}' employees.txt
+  559  awk $3 >= 30 employees.txt 
+  560  awk '$3 >= 30' employees.txt 
+  561  sed -n '2,$p' employees.txt 
+  562  vi age.sh
+  563  ls -lrt
+  564  vi age30.sh 
+  565  sh age30.sh employees.txt 
+  566  vi age30.sh 
+  567  sh age30.sh employees.txt 
+  568  vi age30.sh 
+  569  clear
+  570  ls -lrt
+  571  vi =
+  572  rm=
+  573  ls -lrt
+  574  rm =
+  575  ls -lrt
+  576  rm [0-9]*
+  577  ls -lrt
+  578  vi factorialUNTILLoop.sh 
+  579  vi funtions.sh 
+  580  vi secondlargest.sh 
+  581  vi age30.sh 
+  582  history
+  583  cd linux_commands/
+  584  cd ..
+  585  cd shell_scripts/
+  586  ls -lrt
+  587  sh secondlargest.sh 
+  588  clear
+  589  sh secondlargest.sh 7 8 5
+  590  sh -x secondlargest.sh 7 8 5
+  591  $*
+  592  S?
+  593  clear
+  594  ls -lrt
+  595  sh secondlargest.sh 
+  596  vi secondlargest.sh 
+  597  sh secondlargest.sh 5 3 8 8 0
+  598  sh -x secondlargest.sh 5 3 8 8 0
+  599  sh -x secondlargest.sh -3 -5 -1 -10
+  600  ls
+  601  cd shell_scripts/
+  602  rev 12345
+  603  rev
+  604  man rev
+  605  12345 | rev
+  606  la | rev
+  607  ls | rev
+  608  pwd | rev
+  609  cd ..
+  610  cd linux_commands/
+  611  vi combo.sh
+  612  sh combo.sh
+  613  vi combo.sh
+  614  sh combo.sh
+  615  vi combo.sh
+  616  sh combo.sh
+  617  vi combo.sh
+  618  sh combo.sh
+  619  vi combo.sh
+  620  sh combo.sh
+  621  vi combo.sh
+  622  sh -x combo.sh
+  623  vi combo.sh
+  624  sh -x combo.sh
+  625  vi combo.sh
+  626  sh combo.sh
+  627  vi combo.sh
+  628  sh combo.sh
+  629  vi combo.sh
+  630  sh combo.sh
+  631  vi combo.sh
+  632  sh combo.sh
+  633  vi combo.sh
+  634  sh combo.sh
+  635  vi combo.sh
+  636  sh combo.sh
+  637  vi combo.sh
+  638  sh combo.sh
+  639  vi combo.sh
+  640  sh combo.sh
+  641  vi combo.sh
+  642  sh combo.sh
+  643  vi combo.sh
+  644  sh combo.sh
+  645  vi combo.sh
+  646  sh combo.sh
+  647  vi combo.sh
+  648  sh combo.sh
+  649  vi combo.sh
+  650  sh combo.sh
+  651  wq!
+  652  vi combo.sh
+  653  sh combo.sh
+  654  vi combo.sh
+  655  sh combo.sh
+  656  vi combo.sh
+  657  vi comboa.sh
+  658  sh comboa.sh
+  659  vi comboa.sh
+  660  sh comboa.sh
+  661  vi comboa.sh
+  662  sh comboa.sh
+  663  vi comboa.sh
+  664  sh comboa.sh
+  665  vi arraycombo.sh
+  666  sh arraycombo.sh 
+  667  vi arraycombo.sh
+  668  sh arraycombo.sh 
+  669  vi arraycombo.sh
+  670  sh arraycombo.sh 
+  671  pwd
+  672  cd shell_scripts/
+  673  ls
+  674  vi latestfileindirectory.sh
+  675  sh latestfileindirectory.sh
+  676  vi latestfileindirectory.sh
+  677  vi latestfileindirectory.sh pwd
+  678  sh latestfileindirectory.sh pwd
+  679  vi latestfileindirectory.sh pwd
+  680  pwd
+  681  ls
+  682  sh latestfileindirectory.sh /home/ec2-user/shell_scripts
+  683  sh latestfileindirectory.sh 
+  684  vi latestfileindirectory.sh pwd
+  685  vi datetimeuserpwd.sh
+  686  cd shell_scripts/
+  687  ls -lrt
+  688  vi dttimeuserpwd.sh
+  689  sh dttimeuserpwd.sh
+  690  clear
+  691  ls -lrt
+  692  vi reversenumber.sh
+  693  sh reversenumber.sh
+  694  sh reversenumber.sh 4567
+  695  vi reversenumber.sh
+  696  sh reversenumber.sh 4567
+  697  vi reversenumber.sh
+  698  sh reversenumber.sh 4567
+  699  vi reversenumber.sh
+  700  sh reversenumber.sh 4567
+  701  vi reversenumber.sh
+  702  sh reversenumber.sh 4567
+  703  vi reversenumber.sh
+  704  cd shell_scripts/
+  705  ls -lrt
+  706  vi reversenumber.sh 
+  707  sh reversenumber.sh 6574
+  708  vi reversenumber.sh 
+  709  sh reversenumber.sh 6574
+  710  vi reversenumber.sh 
+  711  sh reversenumber.sh 6574
+  712  vi reversenumber.sh 
+  713  sh reversenumber.sh 6574
+  714  vi reversenumber.sh 
+  715  sh reversenumber.sh 6574
+  716  vi reversenumber.sh 
+  717  sh reversenumber.sh 6574
+  718  sh -x reversenumber.sh 6574
+  719  sh reversenumber.sh 6574
+  720  vi reversenumber.sh 
+  721  sh reversenumber.sh 6574
+  722  vi reversenumber.sh 
+  723  sh reversenumber.sh 6574
+  724  vi reversenumber.sh 
+  725  sh -x reversenumber.sh 6574
+  726  ls -lrt
+  727  chmod u+x reversenumber.sh 
+  728  chmod u+x dttimeuserpwd.sh 
+  729  chmod u+x latestfileindirectory.sh 
+  730  ls -lrt
+  731  clear
+  732  cd ..
+  733  cd linux_commands/
+  734  ls -lrt
+  735  vi arraycombo.sh 
+  736  sh arraycombo.sh 
+  737  vi comboa.sh
+  738  sh comboa.sh
+  739  cd ..
+  740  cd shell_scripts/
+  741  vi arrayascending.sh
+  742  sh arrayascending.sh
+  743  vi arrayascending.sh
+  744  sh arrayascending.sh
+  745  vi arrayascending.sh
+  746  sh arrayascending.sh
+  747  vi arrayascending.sh
+  748  sh arrayascending.sh
+  749  vi arrayascending.sh
+  750  sh arrayascending.sh
+  751  vi arrayascending.sh
+  752  sh arrayascending.sh
+  753  vi arrayascending.sh
+  754  vi arrrrr.sh
+  755  sh arrrrr.sh
+  756  vi arrrrr.sh
+  757  sh arrrrr.sh
+  758  vi arrrrr.sh
+  759  sh arrrrr.sh
+  760  rm arrrrr.sh 
+  761  vi arrayascending.sh 
+  762  sh arrayascending.sh 
+  763  sh -x arrayascending.sh 
+  764  vi arrayascending.sh 
+  765  sh -x arrayascending.sh 
+  766  vi arrayascending.sh 
+  767  sh -x arrayascending.sh 
+  768  vi arrayascending.sh 
+  769  sh -x arrayascending.sh 
+  770  vi arrayascending.sh 
+  771  sh -x arrayascending.sh 
+  772  vi arrayascending.sh 
+  773  sh -x arrayascending.sh 
+  774  vi arrayascending.sh 
+  775  sh -x arrayascending.sh 
+  776  sh arrayascending.sh 
+  777  clear
+  778  ls -lrt
+  779  chmod u+x arrayascending.sh 
+  780  ls -lrt
+  781  cd ..
+  782  cd linux_commands/
+  783  vi move.sh
+  784  sh move.sh
+  785  vi move.sh
+  786  cd linux_commands/
+  787  ls -lrt
+  788  cd ..
+  789  cd shell_scripts/
+  790  ls -lrt
+  791  vi movefile10lines.sh
+  792   movefile10lines.sh
+  793  sh movefile10lines.sh
+  794  seq {1 10}.txt
+  795  seq {1 10}
+  796  seq {1..10}
+  797  seq {1.10}
+  798  seq 1 10
+  799  seq 1 10 > seq.txt
+  800  cat seq.txt 
+  801  pwd
+  802  sh movefile10lines.sh /home/ec2-user/shell_scripts /home/ec2-user/linux_commands
+  803  cd /home/ec2-user/linux_commands
+  804  ls -lrt
+  805  clear
+  806  ls -lrt
+  807  cd /home/ec2-user/linux_commands/
+  808  cd /home/ec2-user/shell_scripts/
+  809  ls -lrt
+  810  chmod u+x movefile10lines.sh 
+  811  clear
+  812  ls -lrt
+  813  $file%
+  814  mkdir extn
+  815  cd extn/
+  816  touch file{1..10}
+  817  ls
+  818  cd ..
+  819  vi newextn.sh
+  820  sh newextn.sh
+  821  cd extn/
+  822  ls 
+  823  mv file.* file
+  824  mv file[0-9].* file
+  825  mv *.new files
+  826  rename 's/.prog//' *.prog
+  827  rename 's/.prog// *.prog'
+  828  rename 's/.new//g'
+  829  which rename
+  830  rename '/.new/.txt/' *.new
+  831  ls
+  832  rm *.new
+  833  ls
+  834  touch file{1..10}
+  835  ls
+  836  cd ..
+  837  ls -lrt
+  838  sh newextn.sh 
+  839  cd extn
+  840  ls
+  841  rename 's/.new/.txt/' *.prog
+  842  ls *.new*
+  843  cd ..
+  844  vi movefile10lines.sh 
+  845  ls -lrt
+  846  vi movefile10lines.sh 
+  847  cd extn/
+  848  ls
+  849  rename "s/.new/ /" **.new
+  850  ls
+  851  rename "s/.txt$/ /" *.new
+  852  ls
+  853  clear
+  854  ls
+  855  mv file1.new  file%.text"
+  856  which change-ext
+  857  which change
+  858  yum install change-ext
+  859  sudo yum install change-ext
+  860  yum install change-ext
+  861  sudo yum install changeext
+  862  clear
+  863  cd ..
+  864  free
+  865  date +\%u
+  866  date
+  867  date +\%d
+  868  cd extn/
+  869  vi monday.sh
+  870  sh monday.sh
+  871  date +%Y
+  872  date +%m
+  873  vi monday.sh
+  874  date +%Y | date +%m
+  875  date +%Y|date +%m
+  876  "{date +%Y}""{date +%m}"
+  877  "{date +%Y}" "{date +%m}"
+  878  clear
+  879  cd ..
+  880  ls -lrt
+  881  vi IP.sh
+  882  sh IP.sh
+  883  vi IP.sh
+  884  sh IP.sh
+  885  vi IP.sh
+  886  sh IP.sh
+  887  vi IP.sh
+  888  sh IP.sh
+  889  vi IP.sh
+  890  sh IP.sh
+  891  vi IP.sh
+  892  sh IP.sh
+  893  vi IP.sh
+  894  clear
+  895  chmod u+x IP.sh 
+  896  ls -lrt
+  897  chmod u+x newextn.sh 
+  898  clear
+  899  ls -lrt
+  900  cd extn/
+  901  ls
+  902  vi changeext.sh
+  903  sh changeext.sh
+  904  pwd
+  905  vi changeext.sh
+  906  pwd
+  907  sh changeext.sh
+  908  vi changeext.sh
+  909  sh changeext.sh
+  910  clear
+  911  ls -lrt
+  912  vi changeext.sh
+  913  sh changeext.sh
+  914  ls -lrt
+  915  vi changeext.sh
+  916  clear
+  917  ls
+  918  sh changeext.sh
+  919  ls 
+  920  cd ..
+  921  ls
+  922  history
+  923  cd linux_commands/
+  924  ls
+  925  vi patternlinux.sh
+  926  ls
+  927  clear
+  928  sudo yum install git
+  929  which git
+  930  git --version
+  931  sudo yum install git -y
+  932  cd linux_commands/
+  933  ls
+  934  cd dir1
+  935  git init
+  936  ls -l
+  937  ls -lart
+  938  history
+  939  cd ..
+  940  cd shell_scripts
+  941  echo "# shellscripts" >> README.md
+  942  git init
+  943  git add README.md
+  944  git commit -m "first commit"
+  945  git add README.md
+  946  git commit -m "first commit"
+  947  ls -lrt
+  948  git branch -M main
+  949  git remote add origin https://github.com/RanganathMS/shellscripts.git
+  950  git push -u origin main
+  951  cd history
+  952  ls
+  953  cd shell_scripts/
+  954  ls
+  955  echo "# shellscrips1" >> README.md
+  956  git init
+  957  git add README.md
+  958  git add *
+  959  git commit -m "first commit"
+  960  git branch -M master
+  961  git remote add origin https://github.com/RanganathMS/shellscrips1.git
+  962  git push -u origin master
+  963   ls
+  964  ls -lart
+  965  cd .got/
+  966  cd .git/
+  967  ls
+  968  clear
+  969  history
+  970  history >> history.txt
+  971  rm history.txt 
+  972  cd ..
+  973  history >> history.txt
+  974  ls -lart
+  975  ls
+  976  exit
+  977  ls
+  978  exit
+  979  ls
+  980  pwd
+  981  cd ec2-user
+  982  exit
+  983  sudo -i
+  984  pwd
+  985  cd ..
+  986  pwd
+  987  cd ..
+  988  pwd
+  989  cd ..
+  990  pwd
+  991  exit
+  992  ls
+  993  history
+  994  cd shell_scripts/
+  995  ls -lrt
+  996  history
+  997  clear
+  998  ls
+  999  cd linux_commands/
+ 1000  touch alternate1.txt alternate2.txt
+ 1001  vi alternate1.txt 
+ 1002  vi alternate2.txt 
+ 1003  cat alternate1.txt >> alternate2.txt
+ 1004  cat alternate2.txt 
+ 1005  vi alternate2.txt 
+ 1006  cat alternate2.txt 
+ 1007  vi print2.sh
+ 1008  sh print2.sh alternate1.txt alternate2.txt
+ 1009  vi print2.sh
+ 1010  vi alternate2.txt 
+ 1011  vi alternate1.txt 
+ 1012  vi print2.sh
+ 1013  sh print2.sh alternate1.txt alternate2.txt
+ 1014  vi print2.sh
+ 1015  sh print2.sh alternate1.txt alternate2.txt
+ 1016  vi print2.sh
+ 1017  sh print2.sh alternate1.txt alternate2.txt
+ 1018  vi print2.sh
+ 1019  sh print2.sh alternate1.txt alternate2.txt
+ 1020  sh -x print2.sh alternate1.txt alternate2.txt
+ 1021  vi alternate2.txt 
+ 1022  sh -x print2.sh alternate1.txt alternate2.txt
+ 1023  sh  print2.sh alternate1.txt alternate2.txt
+ 1024  vi print2.sh
+ 1025  sh  print2.sh alternate1.txt alternate2.txt
+ 1026  vi print2.sh
+ 1027  sh  print2.sh alternate1.txt alternate2.txt
+ 1028  vi print2.sh
+ 1029  sh  print2.sh alternate1.txt alternate2.txt
+ 1030  vi print2.sh
+ 1031  sh  print2.sh alternate1.txt alternate2.txt
+ 1032  vi print2.sh
+ 1033  sh  print2.sh alternate1.txt alternate2.txt
+ 1034  sh  -x print2.sh alternate1.txt alternate2.txt
+ 1035  vi print2.sh
+ 1036  sh  -x print2.sh alternate1.txt alternate2.txt
+ 1037  sh  print2.sh alternate1.txt alternate2.txt
+ 1038  vi print2.sh
+ 1039  sh  print2.sh alternate1.txt alternate2.txt
+ 1040  vi print2.sh
+ 1041  history
+ 1042  ls -lart
+ 1043  cd ..
+ 1044  cd shell_scripts/
+ 1045  history
+ 1046  ls -lart
+ 1047  cd ..
+ 1048  ls
+ 1049  mkdir history
+ 1050  cd history/
+ 1051  history
+ 1052  git init
+ 1053  echo "# history" >> README.md
+ 1054  ls -lart
+ 1055  git add README.md
+ 1056  git add *
+ 1057  git branch -M master
+ 1058  git remote add origin https://github.com/RanganathMS/history.git
+ 1059  git push -u origin master
+ 1060  git push -u origin main
+ 1061  git push -u origin
+ 1062  history >> history.txt
